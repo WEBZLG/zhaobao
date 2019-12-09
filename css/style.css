@@ -1,0 +1,549 @@
+.limit-width {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.orangcolor {
+	color: #EF4300;
+}
+
+.textcenter {
+	text-align: center;
+}
+
+.viewmore {
+	display: block;
+	margin: 50px 0;
+}
+
+.swiper-pagination-bullet {
+	opacity: 1;
+	background-color: #FFFFFF !important;
+}
+
+.swiper-pagination-bullet-active {
+	background: #EF4300 !important;
+}
+
+/* 导航 */
+.nav {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	margin-left: -600px;
+	z-index: 999;
+}
+
+.logo {
+	height: 44px;
+	width: 181px;
+	padding: 28px 0;
+}
+
+.nav-list li {
+	float: left;
+	color: #FFFFFF;
+}
+
+.nav-list li a {
+	display: inline-block;
+	padding: 40px 30px;
+	font-size: 16px;
+	color: #FFFFFF;
+}
+
+.nav-list .login a {
+	padding: 40px 15px;
+}
+
+.footer {
+	color: #FFFFFF;
+	height: 140px;
+	background-color: #333333;
+}
+
+.footer div div {
+	margin-top: 64px;
+}
+
+/* 首页 */
+.hline {
+	width: 64px;
+	margin: 56px 0;
+	border-bottom: 2px;
+	border: 1px solid #333333;
+}
+
+.download a {
+	display: inline-block;
+	height: 60px;
+	width: 150px;
+	margin-right: 40px;
+	vertical-align: middle;
+}
+
+.zhleft {
+	width: 540px;
+}
+
+.zhright {
+	width: 600px;
+	height: 500px;
+}
+
+.zhtext {
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 4;
+	overflow: hidden;
+	line-height: 30px;
+}
+
+.zhleft .viewmore {
+	display: block;
+	margin: 67px 0;
+}
+
+.zhgd {
+	margin: 114px auto;
+}
+
+/* 六宫格 */
+.six-item {
+	width: 33.33%;
+	height: 440px;
+	float: left;
+	position: relative;
+	cursor: pointer;
+}
+
+.over-float {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	opacity: 0;
+	background: rgba(252, 146, 2, .88);
+}
+
+.over-text {
+	color: #FFFFFF;
+	margin-top: 200px;
+	text-align: center;
+}
+
+.over-text h4 {
+	font-size: 30px;
+	font-weight: 400;
+}
+
+/* 首页行业资讯 */
+.news-text {
+	font-size: 14px;
+	color: #999999;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 4;
+	overflow: hidden;
+}
+
+.news-item {
+	width: 50%;
+	float: left;
+	box-sizing: border-box;
+	padding-right: 30px;
+	margin-bottom: 60px;
+}
+
+.news-num {
+	font-size: 30px;
+	color: #ababab;
+}
+
+.title-text {
+	display: inline-block;
+	width: 100%;
+	font-size: 18px;
+	width: 100%;
+	padding: 11px 14px;
+	background-color: #DCDCDC;
+}
+
+.news-title {
+	height: 45px;
+	margin-bottom: 20px;
+}
+
+.news-content {
+	width: 90%;
+	overflow: hidden;
+}
+
+.news-time {
+	margin-top: 36px;
+	font-size: 14px;
+	color: #ababab;
+}
+
+/* 联系我们 */
+.icon-sm {
+	display: inline-block;
+	vertical-align: middle;
+	height: 20px;
+	width: 20px;
+	margin-right: 12px;
+}
+
+.contact-box {
+	box-sizing: border-box;
+	padding-top: 100px;
+	padding-bottom: 40px;
+	background-color: #F7F7F7;
+}
+
+.type {
+	margin: 60px 0;
+}
+
+.contact-info {}
+
+.contact-info input,
+.contact-info textarea {
+	width: 600px;
+	border: none;
+	outline: none;
+	background-color: #eaeaea;
+}
+
+.contact-info input {
+	text-indent: 14px;
+	height: 48px;
+	margin-bottom: 16px;
+}
+
+.contact-info textarea {
+	box-sizing: border-box;
+	padding: 14px;
+}
+
+.contact-info button {
+	width: 600px;
+	height: 48px;
+	font-size: 18px;
+	color: #FFFFFF;
+	border: none;
+	outline: none;
+	background: rgba(239, 67, 0, 1);
+}
+
+/* 亿通集团 */
+.idea-price {
+	margin-bottom: 60px;
+	padding-bottom: 60px;
+	border-bottom: 1px solid #DFDFDF;
+}
+
+.idea-company {
+	font-size: 30px;
+	margin: 60px;
+}
+
+.idea-text {
+	font-weight: bold;
+	margin-bottom: 60px;
+}
+
+.idea-price {
+	line-height: 30px;
+	margin-bottom: 60px;
+}
+
+.yt-desc {
+	position: relative;
+}
+
+.who-img {
+	width: 600px;
+	height: 380px;
+}
+
+.who-text {
+	width: 416px;
+}
+
+.ytlogo {
+	width: 153px;
+	height: 194px;
+}
+
+.who-text h4 {
+	font-size: 24px;
+	margin-bottom: 58px;
+}
+
+.who-text p {
+	line-height: 30px;
+}
+
+.rect {
+	height: 354px;
+	width: 264px;
+	position: absolute;
+	top: 190px;
+	left: 427px;
+	z-index: 9;
+}
+
+.vision {
+	margin-top: 120px;
+}
+
+.vision .who-text {
+	width: 304px;
+}
+
+.vision-img {
+	width: 822px;
+	height: 300px;
+}
+
+.ytlogo2 {
+	width: 361px;
+	height: 289px;
+}
+
+.yt-message {
+	width: 744px;
+}
+
+.brand-title {
+	font-size: 30px;
+	margin: 90px 0;
+	padding-bottom: 60px;
+	border-bottom: 1px solid #DFDFDF;
+}
+
+.yt-message h5 {
+	font-size: 24px;
+	margin-bottom: 58px;
+}
+
+.brand {
+	margin-bottom: 90px;
+	position: relative;
+}
+
+.brand-img div {
+	float: left;
+	width: 390px;
+	height: 136px;
+	border-radius: 15px;
+}
+
+.brand-img div:nth-child(2) {
+	margin: 0 15px;
+}
+
+.brand-item {
+	width: 1200px;
+}
+
+.brand .swiper-pagination {
+	left: 50%;
+	bottom: -60px;
+	margin-left: -120px;
+}
+
+.brand .swiper-pagination-bullet {
+	height: 20px;
+	width: 20px;
+	margin: 0 20px;
+	background-color: #DCDCDC !important;
+}
+
+.brand .swiper-pagination-bullet-active {
+	background: #EF4300 !important;
+}
+
+/* 智慧工地 */
+.zh-title {
+	font-size: 30px;
+	text-align: center;
+	margin: 60px 0;
+}
+
+.zh-logo {
+	height: 100px;
+	width: 100px;
+	margin: 60px auto;
+}
+
+.zh-platform {
+	width: 854px;
+	margin: 0 auto;
+}
+
+.zh-text p:first-child {
+	margin-bottom: 60px;
+}
+
+.zh .limit-width {
+	padding-bottom: 50px;
+	margin-bottom: 60px;
+	border-bottom: 1px solid #DFDFDF;
+}
+
+/* 九大模块 */
+.nine-item {
+	width: 33.33%;
+	height: 440px;
+	float: left;
+	position: relative;
+}
+
+.nine-content {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	color: #FFFFFF;
+	box-sizing: border-box;
+	padding: 35px;
+}
+
+.nine-content h4 {
+	font-size: 30px;
+	text-align: center;
+}
+
+.gline {
+	display: block;
+	text-align: center;
+}
+
+/* 我们的优势 */
+.our-item {
+	float: left;
+	width: 25%;
+	margin-left: 12%;
+	height: 400px;
+	text-align: center;
+}
+
+.our-item:first-child,
+.our-item:nth-child(4) {
+	margin-left: 0;
+}
+
+.ourimg {
+	height: 222px;
+	width: 222px;
+	margin: 40px auto;
+}
+
+/* 联系我们 */
+.contact h5 {
+	font-size: 16px;
+	margin-bottom: 60px;
+}
+
+.contact-icon {
+	height: 80px;
+	width: 80px;
+	margin: 80px auto 16px;
+}
+
+.types-item {
+	text-align: center;
+	width: 25%;
+	float: left;
+}
+
+.types-item:nth-child(2) {
+	margin: 0 12.5%;
+}
+
+.map {
+	margin: 90px auto 80px;
+}
+
+.ewm {
+	height: 244px;
+	width: 244px;
+	margin-left: 26px;
+	margin-top: 26px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+/* 价格 */
+.price-icon {
+	height: 78px;
+	width: 78px;
+	margin: 80px auto 3px;
+}
+
+.price-item {
+	width: 25%;
+	text-align: center;
+	float: left;
+}
+
+.price-item:nth-child(2) {
+	margin: 0 12.5%;
+}
+
+.price-item em {
+	font-size: 18px;
+	font-weight: bold;
+	color: #EF4300;
+}
+
+.price-item button {
+	outline: none;
+	cursor: pointer;
+	border: 1px solid #EF4300;
+	background-color: inherit;
+	padding: 6px 16px;
+	border-radius: 40px;
+	color: #ef4300;
+}
+.price-item p{
+	margin: 34px 0;
+}
+.price-item h5{
+	font-size: 24px;
+}
+
+.price-type{
+	margin: 80px 0;
+	border-top: 1px solid #DFDFDF;
+}
+
+.function{
+	padding: 80px 0 100px;
+	background-color: #F2F6F8;
+}
+.act-item{
+	width: 33.33%;
+	float: left;
+}
+
+.action .left,
+.action .right{
+	width: 45%;
+}
+.action .middle{
+	width: 2%;
+	margin: 0 4%;
+}
+
+.action h5{
+	margin-bottom: 60px;
+}
+
+.action span{
+	color: #EF4300;
+}

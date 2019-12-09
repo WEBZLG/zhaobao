@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+		<div class="header">
+			<script type="text/javascript">
+				$('.header').load('nav.html')
+			</script>
+		</div>
+		
+		
+		
+		<div class="footer">
+			<script type="text/javascript">
+				$('.footer').load('footer.html')
+			</script>
+		</div>
+		<script type="text/javascript">
+			new WOW().init();
+			var mySwiper = new Swiper('.swiper-container', {
+				autoplay: true, //可选选项，自动滑动
+				pagination: {
+					el: '.swiper-pagination',
+				},
+			})
+		</script>
+	</body>
+</html>

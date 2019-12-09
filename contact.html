@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div class="header">
+			<script type="text/javascript">
+				$('.header').load('nav.html')
+			</script>
+		</div>
+
+		<div class="contact">
+			<div class="banner">
+				<img src="img/banner_contact.jpg">
+			</div>
+			<h4 class="zh-title">联系</h4>
+			<div class="limit-width">
+				<div class="textcenter">
+					<h5>我们致力于促进数字中国、数字城市、智慧工程的建设，帮助企业和品牌在这个数字时代蓬勃发展</h5>
+					<p>如果您有合作意愿或者任何疑问</p>
+					<p>欢迎与我们联系</p>
+				</div>
+				<div class="contact-types clearfix">
+					<div class="types-item">
+						<div class="contact-icon"><img src="img/tel1.png" ></div>
+						<h5>电话</h5>
+						<p>12312313212</p>
+						<p>0451-88905158</p>
+					</div>
+					<div class="types-item">
+						<div class="contact-icon"><img src="img/address1.png" ></div>
+						<h5>电话</h5>
+						<p>黑龙江省哈尔滨市道里区兴江路</p>
+						<p>XXX号银泰城E座XXXX室</p>
+					</div>
+					<div class="types-item">
+						<div class="contact-icon"><img src="img/email1.png" ></div>
+						<h5>电话</h5>
+						<p>zb@xxx.com</p>
+						<p>kf@xxx.com</p>
+					</div>
+				</div>
+				<div class="map">
+					<img src="img/1575879838(1).jpg" >
+				</div>
+				<div class="clearfix">
+					<div class="fl contact-info">
+						<div><input type="text" id="name" value="" / placeholder="请填写您的姓名"></div>
+						<div><input type="text" id="phone" value="" / placeholder="请填写您的电话"></div>
+						<div class=""><textarea id="address" rows="6" cols="" placeholder="请填写您的留言"></textarea></div>
+						<button type="button">提交留言</button>
+					</div>
+					<div class="fr">
+						<div class="ewm"><img src="img/1575879981(1).png" ></div>
+						<div class="ewm"><img src="img/1575879981(1).png" ></div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="footer">
+			<script type="text/javascript">
+				$('.footer').load('footer.html')
+			</script>
+		</div>
+		<script type="text/javascript">
+			new WOW().init();
+			var mySwiper = new Swiper('.swiper-container', {
+				autoplay: true, //可选选项，自动滑动
+				pagination: {
+					el: '.swiper-pagination',
+				},
+			})
+		</script>
+	</body>
+</html>
